@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="heima-leadnews:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="freemarker-demo" />
+      <module name="heima-leadnews" />
+      <module name="heima-leadnews-app-gateway" />
+      <module name="heima-leadnews-article" />
+      <module name="heima-leadnews-common" />
+      <module name="heima-leadnews-feign-api" />
+      <module name="heima-leadnews-gateway" />
+      <module name="heima-leadnews-model" />
+      <module name="heima-leadnews-service" />
+      <module name="heima-leadnews-test" />
+      <module name="heima-leadnews-user" />
+      <module name="heima-leadnews-utils" />
+    </loaded-modules>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\1work\respository_new" />
+        <option name="mavenHome" value="E:\apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1qtFhssXtMyvl1Fsk71QRjwXmj3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="clickhouse&#10;derby" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1work/heimatoutiao/heima-leadnews" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.52873564" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.heima.wemedia.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.heima.article.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-user" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.heima.app.gateway.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\tess4j" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\mapper" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\impl" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.heima.apis.article" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WmNewsAutoScanServiceTest">
+    <configuration name="AliyunTest.testScanText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-wemedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.wemedia.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.heima.wemedia.test" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.wemedia.test.AliyunTest" />
+      <option name="METHOD_NAME" value="testScanText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmNewsAutoScanServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-wemedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.wemedia.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.heima.wemedia.service" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.wemedia.service.WmNewsAutoScanServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WemediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-wemedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.wemedia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.wemedia.WemediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WemediaGatewayAplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="heima-leadnews-wemedia-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.wemedia.gateway.WemediaGatewayAplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.WmNewsAutoScanServiceTest" />
+      <item itemvalue="JUnit.AliyunTest.testScanText" />
+      <item itemvalue="Spring Boot.WemediaGatewayAplication" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Spring Boot.WemediaApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WmNewsAutoScanServiceTest" />
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="JUnit.AliyunTest.testScanText" />
+        <item itemvalue="Spring Boot.WemediaApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="" />
+      <created>1617891102231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617891102231</updated>
+      <workItem from="1617891103350" duration="1851000" />
+      <workItem from="1617892989009" duration="2701000" />
+      <workItem from="1617895802525" duration="1179000" />
+      <workItem from="1617896994412" duration="272000" />
+      <workItem from="1617897284577" duration="51000" />
+      <workItem from="1617897661455" duration="1076000" />
+      <workItem from="1617898769684" duration="636000" />
+      <workItem from="1617932839775" duration="1311000" />
+      <workItem from="1695368315330" duration="752000" />
+      <workItem from="1695375719545" duration="2628000" />
+      <workItem from="1695601427683" duration="19084000" />
+      <workItem from="1695635541052" duration="2529000" />
+      <workItem from="1695687895542" duration="19044000" />
+      <workItem from="1695783352533" duration="435000" />
+      <workItem from="1695783833982" duration="391000" />
+      <workItem from="1695784254715" duration="7955000" />
+      <workItem from="1695805441251" duration="2944000" />
+      <workItem from="1695808646849" duration="1967000" />
+      <workItem from="1695859819174" duration="1659000" />
+      <workItem from="1695884631410" duration="588000" />
+      <workItem from="1696641918234" duration="8695000" />
+      <workItem from="1696724145357" duration="13684000" />
+      <workItem from="1696810549926" duration="5288000" />
+      <workItem from="1696899276212" duration="1190000" />
+      <workItem from="1696985645983" duration="12519000" />
+      <workItem from="1697082616326" duration="13221000" />
+      <workItem from="1697155949871" duration="6936000" />
+      <workItem from="1697165158472" duration="11540000" />
+      <workItem from="1697416614449" duration="925000" />
+      <workItem from="1697417935891" duration="798000" />
+      <workItem from="1697418769523" duration="1339000" />
+      <workItem from="1697420145572" duration="9393000" />
+      <workItem from="1697502436140" duration="2056000" />
+      <workItem from="1697504535852" duration="569000" />
+      <workItem from="1697505142279" duration="3025000" />
+      <workItem from="1697508218268" duration="473000" />
+      <workItem from="1697508715253" duration="442000" />
+      <workItem from="1697509226333" duration="8641000" />
+      <workItem from="1697526440197" duration="1882000" />
+      <workItem from="1697531490782" duration="4437000" />
+      <workItem from="1697589260771" duration="12377000" />
+      <workItem from="1697674327134" duration="18245000" />
+      <workItem from="1697763247546" duration="19595000" />
+      <workItem from="1698043063727" duration="9701000" />
+      <workItem from="1698107697345" duration="16996000" />
+      <workItem from="1698140795880" duration="452000" />
+      <workItem from="1698193143606" duration="14141000" />
+      <workItem from="1698218211885" duration="1343000" />
+      <workItem from="1698219596686" duration="3862000" />
+      <workItem from="1698225840708" duration="1061000" />
+      <workItem from="1698284347786" duration="1325000" />
+      <workItem from="1698285718471" duration="4500000" />
+      <workItem from="1698291020237" duration="10577000" />
+      <workItem from="1698366621956" duration="2230000" />
+      <workItem from="1698369199600" duration="7878000" />
+      <workItem from="1698390560332" duration="8792000" />
+      <workItem from="1698625174859" duration="4723000" />
+      <workItem from="1698633196046" duration="2999000" />
+      <workItem from="1698636235294" duration="1050000" />
+      <workItem from="1698637476133" duration="10101000" />
+      <workItem from="1698711393842" duration="3816000" />
+      <workItem from="1698715831872" duration="1268000" />
+      <workItem from="1698717134181" duration="179000" />
+      <workItem from="1698717590622" duration="4131000" />
+      <workItem from="1698721844287" duration="2545000" />
+      <workItem from="1698734174382" duration="2227000" />
+      <workItem from="1698736461274" duration="493000" />
+      <workItem from="1698736993330" duration="1579000" />
+      <workItem from="1698738631444" duration="3889000" />
+      <workItem from="1698798030638" duration="5370000" />
+      <workItem from="1698804163400" duration="1094000" />
+      <workItem from="1698805293089" duration="2037000" />
+      <workItem from="1698808284628" duration="934000" />
+      <workItem from="1698809259343" duration="3424000" />
+      <workItem from="1698822526886" duration="9884000" />
+      <workItem from="1698907899313" duration="1717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="803" y="370" key="#Customize_Threads_View" timestamp="1698723686862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="370" key="#Customize_Threads_View/0.0.1920.1040@0.0.1920.1040" timestamp="1698723686862" />
+    <state x="586" y="198" key="#Inspections" timestamp="1698117545029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1698117545029" />
+    <state x="-195" y="189" width="1903" height="851" key="#Project_Structure" timestamp="1698722200582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-195" y="189" width="1903" height="851" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1698722200582" />
+    <state x="849" y="409" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog" timestamp="1698202815783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="849" y="409" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698202815783" />
+    <state x="217" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1698723243299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="217" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698723243299" />
+    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1698823540549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1698823540549" />
+    <state x="666" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1698202830227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698202830227" />
+    <state x="376" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1696753024606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="376" y="432" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696753024606" />
+    <state x="580" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1696753001444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1696753001444" />
+    <state x="213" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1698713906202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="213" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698713906202" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698808917410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698808917410" />
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1698648609710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698648609710" />
+    <state x="867" y="273" width="520" height="494" key="#xdebugger.XInspectDialog" timestamp="1698197846485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="867" y="273" width="520" height="494" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698197846485" />
+    <state x="846" y="277" key="#xdebugger.evaluate" timestamp="1698397667571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="846" y="277" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1698397667571" />
+    <state width="494" height="466" key="DebuggerActiveHint" timestamp="1698397703207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="494" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1698397703207" />
+    <state x="589" y="260" key="FileChooserDialogImpl" timestamp="1698832725948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1698832725948" />
+    <state x="771" y="439" key="Gitee.CreateGistDialog" timestamp="1698832304442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="439" key="Gitee.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698832304442" />
+    <state x="790" y="420" key="Gitee.ShareDialog" timestamp="1698832440502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698832440502" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.1.bottom" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.1.center" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.1.left" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="259" key="GridCell.Tab.1.right" timestamp="1698831804759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="259" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698831804759" />
+    <state width="1877" height="341" key="GridCell.Tab.2.bottom" timestamp="1698804133529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1698804133529" />
+    <state width="1877" height="341" key="GridCell.Tab.2.center" timestamp="1698804133529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1698804133529" />
+    <state width="1877" height="341" key="GridCell.Tab.2.left" timestamp="1698804133529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1698804133529" />
+    <state width="1877" height="341" key="GridCell.Tab.2.right" timestamp="1698804133529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="341" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1698804133529" />
+    <state x="514" y="404" width="940" height="471" key="Maven.ArtifactSearchDialog" timestamp="1698800617228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="514" y="404" width="940" height="471" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698800617228" />
+    <state x="456" y="199" width="1303" height="708" key="SettingsEditor" timestamp="1698832751122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="456" y="199" width="1303" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1698832751122" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1698908639023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1698908639023" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1697419519418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1697419519418" />
+    <state x="55" y="110" width="1674" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1697418743907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="55" y="110" width="1674" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1697418743907" />
+    <state x="658" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1697505379865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1697505379865" />
+    <state x="725" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1698802125091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698802125091" />
+    <state x="502" y="256" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1698735871468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="256" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1698735871468" />
+    <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1697703661976">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1697703661976" />
+    <state x="359" y="208" key="new project wizard" timestamp="1697420472321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="359" y="208" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1697420472321" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1698801769735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698801769735" />
+    <state x="690" y="604" width="672" height="678" key="search.everywhere.popup" timestamp="1698716938523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="604" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1698716938523" />
+  </component>
+</project>
