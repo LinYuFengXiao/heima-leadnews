@@ -6,6 +6,7 @@ import com.heima.article.mapper.ApArticleConfigMapper;
 import com.heima.article.mapper.ApArticleContentMapper;
 import com.heima.article.mapper.ApArticleMapper;
 import com.heima.article.service.ApArticleService;
+import com.heima.article.service.ArticleFreemarkService;
 import com.heima.common.constants.ArticleConstants;
 import com.heima.model.article.dtos.ArticleDto;
 import com.heima.model.article.dtos.ArticleHomeDto;
@@ -18,7 +19,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -83,6 +83,9 @@ public class ApArticleServiceImpl extends ServiceImpl<ApArticleMapper,ApArticle>
     @Autowired
     private ApArticleContentMapper apArticleContentMapper;
 
+    @Autowired
+    private ArticleFreemarkService articleFreemarkService;
+
 
 
     /**
@@ -130,6 +133,8 @@ public class ApArticleServiceImpl extends ServiceImpl<ApArticleMapper,ApArticle>
             apArticleContentMapper.updateById(apArticleContent);
         }
 
+        //异步调用，生成静态文件上传到minio
+        articleFreemarkService.buildArticleToMinIO(apArticle, dto.getContent());
 
         //3.结果返回  文章的id
         return ResponseResult.okResult(apArticle.getId());

@@ -10,3 +10,7 @@ spring:
       config:
         server-addr: 172.18.70.148:8848
         file-extension: yml
+
+tess4j:
+  data-path: E:\1work\heimatoutiao\tessdata
+  language: chi_sim
