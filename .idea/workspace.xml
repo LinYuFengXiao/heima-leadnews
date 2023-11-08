@@ -41,10 +41,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +78,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -137,7 +137,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/schedule/pojos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/mapper" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -148,10 +148,8 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.heima.apis.article" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.heima.schedule.service.impl" />
       <recent name="com.heima.wemedia.service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -160,62 +158,114 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.heima.article.service.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\schedule\pojos" />
-      <recent name="E:\workspace\heima-leadnews\heima-leadnews-test" />
-      <recent name="E:\workspace\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos" />
-      <recent name="E:\workspace\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\tess4j" />
-      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\mapper" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.heima.app.gateway.util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-user" />
       <recent name="E:\workspace\heima-leadnews\heima-leadnews-test" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\resources\mapper" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\resources" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\java\com\heima\schedule\mapper" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\redis" />
+      <recent name="E:\workspace\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\schedule\pojos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.heima.app.gateway.util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.heima.apis.article" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.heima.tess4j.Application" />
-      <module name="tess4j-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.tess4j.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.TaskServiceImplTest.testPoll">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AliyunTest.testScanText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-wemedia" />
+    <configuration name="RedisTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-schedule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.wemedia.test.*" />
+          <option name="PATTERN" value="com.heima.schedule.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.heima.wemedia.test" />
-      <option name="MAIN_CLASS_NAME" value="com.heima.wemedia.test.AliyunTest" />
-      <option name="METHOD_NAME" value="testScanText" />
+      <option name="PACKAGE_NAME" value="com.heima.schedule.test" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.test.RedisTest" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WmNewsAutoScanServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-wemedia" />
+    <configuration name="RedisTest.testZset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-schedule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.wemedia.service.*" />
+          <option name="PATTERN" value="com.heima.schedule.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.heima.wemedia.service" />
-      <option name="MAIN_CLASS_NAME" value="com.heima.wemedia.service.WmNewsAutoScanServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.heima.schedule.test" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.test.RedisTest" />
+      <option name="METHOD_NAME" value="testZset" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceImplTest.addTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.schedule.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.heima.schedule.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.service.impl.TaskServiceImplTest" />
+      <option name="METHOD_NAME" value="addTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceImplTest.cancelTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.schedule.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.heima.schedule.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.service.impl.TaskServiceImplTest" />
+      <option name="METHOD_NAME" value="cancelTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceImplTest.testPoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.schedule.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.heima.schedule.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.service.impl.TaskServiceImplTest" />
+      <option name="METHOD_NAME" value="testPoll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,32 +273,6 @@
     <configuration name="AppGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="heima-leadnews-app-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.app.gateway.AppGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-article" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.article.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.article.ArticleApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WemediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-wemedia" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.wemedia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.wemedia.WemediaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,21 +285,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.WmNewsAutoScanServiceTest" />
-      <item itemvalue="JUnit.AliyunTest.testScanText" />
+      <item itemvalue="JUnit.RedisTest.testList" />
+      <item itemvalue="JUnit.RedisTest.testZset" />
       <item itemvalue="Spring Boot.WemediaGatewayAplication" />
       <item itemvalue="Spring Boot.AppGatewayApplication" />
-      <item itemvalue="Spring Boot.ArticleApplication" />
-      <item itemvalue="Spring Boot.WemediaApplication" />
+      <item itemvalue="JUnit.TaskServiceImplTest.addTask" />
+      <item itemvalue="JUnit.TaskServiceImplTest.cancelTask" />
+      <item itemvalue="JUnit.TaskServiceImplTest.testPoll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.WmNewsAutoScanServiceTest" />
-        <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="JUnit.AliyunTest.testScanText" />
-        <item itemvalue="Spring Boot.WemediaApplication" />
+        <item itemvalue="JUnit.TaskServiceImplTest.testPoll" />
+        <item itemvalue="JUnit.TaskServiceImplTest.addTask" />
+        <item itemvalue="JUnit.TaskServiceImplTest.cancelTask" />
+        <item itemvalue="JUnit.RedisTest.testZset" />
+        <item itemvalue="JUnit.RedisTest.testList" />
       </list>
     </recent_temporary>
   </component>
@@ -372,6 +396,8 @@
       <workItem from="1698973542045" duration="5745000" />
       <workItem from="1699230174929" duration="1117000" />
       <workItem from="1699231330554" duration="9388000" />
+      <workItem from="1699317395013" duration="6064000" />
+      <workItem from="1699406880805" duration="2951000" />
     </task>
     <servers />
   </component>
@@ -423,10 +449,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="217" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698723243299" />
-    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1699236226334">
+    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1699410842683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1699236226334" />
+    <state x="1245" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1699410842683" />
     <state x="666" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1698202830227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -475,38 +501,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698832440502" />
-    <state width="1867" height="325" key="GridCell.Tab.0.bottom" timestamp="1699264410939">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1699412208784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
-    <state width="1867" height="325" key="GridCell.Tab.0.center" timestamp="1699264410939">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1699412208784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
-    <state width="1867" height="325" key="GridCell.Tab.0.left" timestamp="1699264410939">
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1699412208784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
-    <state width="1867" height="325" key="GridCell.Tab.0.right" timestamp="1699264410939">
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1699412208784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
-    <state width="1867" height="325" key="GridCell.Tab.1.bottom" timestamp="1699264410940">
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1699351018870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410940" />
-    <state width="1867" height="325" key="GridCell.Tab.1.center" timestamp="1699264410939">
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699351018870" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1699351018870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
-    <state width="1867" height="325" key="GridCell.Tab.1.left" timestamp="1699264410939">
+    <state width="1877" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699351018870" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1699351018870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
-    <state width="1867" height="325" key="GridCell.Tab.1.right" timestamp="1699264410939">
+    <state width="1877" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699351018870" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1699351018870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699264410939" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699351018870" />
     <state width="1877" height="341" key="GridCell.Tab.2.bottom" timestamp="1698804133529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -551,10 +577,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1697505379865" />
-    <state x="725" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1698802125091">
+    <state x="725" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1699347365878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="725" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698802125091" />
+    <state x="725" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699347365878" />
     <state x="502" y="256" width="915" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1698735871468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
