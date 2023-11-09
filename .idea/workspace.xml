@@ -42,9 +42,10 @@
   <component name="ChangeListManager">
     <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/java/com/heima/schedule/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/java/com/heima/schedule/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/test/java/com/heima/schedule/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/test/java/com/heima/schedule/test/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/test-classes/com/heima/schedule/service/impl/TaskServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/test-classes/com/heima/schedule/service/impl/TaskServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/test-classes/com/heima/schedule/test/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/test-classes/com/heima/schedule/test/RedisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,12 +138,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mykafka" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.52873564" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -176,21 +177,8 @@
       <recent name="com.heima.apis.article" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TaskServiceImplTest.testPoll">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RedisTest.testPiple2">
+    <configuration name="RedisTest.testKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heima-leadnews-schedule" />
       <extension name="coverage">
         <pattern>
@@ -200,13 +188,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.heima.schedule.test" />
       <option name="MAIN_CLASS_NAME" value="com.heima.schedule.test.RedisTest" />
-      <option name="METHOD_NAME" value="testList" />
+      <option name="METHOD_NAME" value="testKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest.testZset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisTest.testPiple1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heima-leadnews-schedule" />
       <extension name="coverage">
         <pattern>
@@ -216,7 +204,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.heima.schedule.test" />
       <option name="MAIN_CLASS_NAME" value="com.heima.schedule.test.RedisTest" />
-      <option name="METHOD_NAME" value="testZset" />
+      <option name="METHOD_NAME" value="testPiple1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testPiple2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-schedule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.schedule.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.heima.schedule.test" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.test.RedisTest" />
+      <option name="METHOD_NAME" value="testPiple2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,22 +237,6 @@
       <option name="PACKAGE_NAME" value="com.heima.schedule.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.heima.schedule.service.impl.TaskServiceImplTest" />
       <option name="METHOD_NAME" value="addTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskServiceImplTest.cancelTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-schedule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.schedule.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.heima.schedule.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.heima.schedule.service.impl.TaskServiceImplTest" />
-      <option name="METHOD_NAME" value="cancelTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,21 +273,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RedisTest.testList" />
-      <item itemvalue="JUnit.RedisTest.testZset" />
+      <item itemvalue="JUnit.TaskServiceImplTest.addTask" />
+      <item itemvalue="JUnit.TaskServiceImplTest.testPoll" />
+      <item itemvalue="JUnit.RedisTest.testKey" />
+      <item itemvalue="JUnit.RedisTest.testPiple1" />
+      <item itemvalue="JUnit.RedisTest.testPiple2" />
       <item itemvalue="Spring Boot.WemediaGatewayAplication" />
       <item itemvalue="Spring Boot.AppGatewayApplication" />
-      <item itemvalue="JUnit.TaskServiceImplTest.addTask" />
-      <item itemvalue="JUnit.TaskServiceImplTest.cancelTask" />
-      <item itemvalue="JUnit.TaskServiceImplTest.testPoll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTest.testPiple2" />
+        <item itemvalue="JUnit.RedisTest.testPiple1" />
+        <item itemvalue="JUnit.RedisTest.testKey" />
         <item itemvalue="JUnit.TaskServiceImplTest.testPoll" />
         <item itemvalue="JUnit.TaskServiceImplTest.addTask" />
-        <item itemvalue="JUnit.TaskServiceImplTest.cancelTask" />
-        <item itemvalue="JUnit.RedisTest.testZset" />
-        <item itemvalue="JUnit.RedisTest.testList" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +385,8 @@
       <workItem from="1699230174929" duration="1117000" />
       <workItem from="1699231330554" duration="9388000" />
       <workItem from="1699317395013" duration="6064000" />
-      <workItem from="1699406880805" duration="2951000" />
+      <workItem from="1699406880805" duration="8600000" />
+      <workItem from="1699433629790" duration="1150000" />
     </task>
     <servers />
   </component>
@@ -489,10 +478,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="494" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1698397703207" />
-    <state x="589" y="260" key="FileChooserDialogImpl" timestamp="1699231213640">
+    <state x="589" y="260" key="FileChooserDialogImpl" timestamp="1699430701114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1699231213640" />
+    <state x="589" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1699430701114" />
     <state x="771" y="439" key="Gitee.CreateGistDialog" timestamp="1698832304442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -501,22 +490,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698832440502" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1699412208784">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1699433600775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1699412208784">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699433600775" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1699433600775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1699412208784">
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699433600775" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1699433600775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1699412208784">
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699433600775" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1699433600775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699412208784" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699433600775" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1699351018870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -557,10 +546,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="167" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1699230905912" />
-    <state x="501" y="157" width="1303" height="883" key="SettingsEditor" timestamp="1699235074880">
+    <state x="501" y="157" width="1303" height="883" key="SettingsEditor" timestamp="1699433663443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="501" y="157" width="1303" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1699235074880" />
+    <state x="501" y="157" width="1303" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1699433663443" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1698910558580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
