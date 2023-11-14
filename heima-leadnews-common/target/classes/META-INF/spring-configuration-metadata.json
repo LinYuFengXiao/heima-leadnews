@@ -2,13 +2,13 @@
   "groups": [
     {
       "name": "aliyun",
-      "type": "com.heima.common.aliyun.GreenImageScan",
-      "sourceType": "com.heima.common.aliyun.GreenImageScan"
+      "type": "com.heima.common.aliyun.GreenTextScan",
+      "sourceType": "com.heima.common.aliyun.GreenTextScan"
     },
     {
       "name": "aliyun",
-      "type": "com.heima.common.aliyun.GreenTextScan",
-      "sourceType": "com.heima.common.aliyun.GreenTextScan"
+      "type": "com.heima.common.aliyun.GreenImageScan",
+      "sourceType": "com.heima.common.aliyun.GreenImageScan"
     },
     {
       "name": "tess4j",
@@ -20,22 +20,22 @@
     {
       "name": "aliyun.access-key-id",
       "type": "java.lang.String",
-      "sourceType": "com.heima.common.aliyun.GreenImageScan"
+      "sourceType": "com.heima.common.aliyun.GreenTextScan"
     },
     {
       "name": "aliyun.access-key-id",
       "type": "java.lang.String",
-      "sourceType": "com.heima.common.aliyun.GreenTextScan"
-    },
-    {
-      "name": "aliyun.secret",
-      "type": "java.lang.String",
       "sourceType": "com.heima.common.aliyun.GreenImageScan"
     },
     {
       "name": "aliyun.secret",
       "type": "java.lang.String",
       "sourceType": "com.heima.common.aliyun.GreenTextScan"
+    },
+    {
+      "name": "aliyun.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageScan"
     },
     {
       "name": "aliyun.service1",

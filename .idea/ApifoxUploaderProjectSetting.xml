@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ApifoxUploaderProjectSetting">
+    <option name="apifoxAccessToken" value="APS-w497Ip9JOPqfqDB1WbQJO7lzjk5GvrUU" />
+    <option name="apifoxApiOverwriteMode" value="覆盖所有字段" />
+    <option name="apifoxProjectIds">
+      <array>
+        <option value="# ModuleName:ProjectID" />
+        <option value="heima-leadnews:3585434,黑马头条" />
+        <option value="heima-leadnews-schedule:3585434" />
+        <option value="heima-leadnews-wemedia:3585434" />
+        <option value="heima-leadnews-article:3585434" />
+        <option value="heima-leadnews-user:3585434" />
+        <option value="freemarker-demo:3585434" />
+      </array>
+    </option>
+    <option name="yapiTokens" value="" />
+  </component>
+</project>

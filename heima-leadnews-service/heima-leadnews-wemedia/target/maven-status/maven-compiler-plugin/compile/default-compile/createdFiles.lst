@@ -10,7 +10,9 @@ com\heima\wemedia\mapper\WmChannelMapper.class
 com\heima\wemedia\config\WebMvcConfig.class
 com\heima\wemedia\service\WmChannelService.class
 com\heima\wemedia\service\impl\WmChannelServiceImpl.class
+com\heima\wemedia\service\impl\WmNewsTaskServiceImpl.class
 com\heima\wemedia\service\impl\WmNewsAutoScanServiceImpl.class
+com\heima\wemedia\service\WmNewsTaskService.class
 com\heima\wemedia\config\InitConfig.class
 com\heima\wemedia\controller\v1\LoginController.class
 com\heima\wemedia\controller\v1\WmchannelController.class

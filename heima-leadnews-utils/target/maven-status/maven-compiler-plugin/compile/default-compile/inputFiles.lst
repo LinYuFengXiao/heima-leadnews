@@ -1,3 +1,4 @@
+E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\JdkSerializeUtil.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\thread\WmThreadLocalUtil.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\ZipUtils.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\DateUtils.java
@@ -8,6 +9,7 @@ E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\c
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\IdsUtils.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\ReflectUtils.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\UrlSignUtils.java
+E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\ProtostuffUtil.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\Compute.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\Base64Utils.java
 E:\workspace\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\MD5Utils.java

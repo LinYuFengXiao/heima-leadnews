@@ -41,19 +41,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/redis/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/redis/CacheService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/redis/CacheService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/redis/CacheService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/redis/CacheService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/redis/CacheService$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/redis/CacheService.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/redis/CacheService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/java/com/heima/schedule/ScheduleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/java/com/heima/schedule/ScheduleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/java/com/heima/schedule/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/main/java/com/heima/schedule/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/test/java/com/heima/schedule/service/impl/TaskServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/src/test/java/com/heima/schedule/service/impl/TaskServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/classes/com/heima/schedule/ScheduleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/classes/com/heima/schedule/ScheduleApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/classes/com/heima/schedule/service/impl/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/classes/com/heima/schedule/service/impl/TaskServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/test-classes/com/heima/schedule/service/impl/TaskServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/test-classes/com/heima/schedule/service/impl/TaskServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/service/impl/WmNewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/heima-file-starter-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/heima-file-starter-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/heima-leadnews-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/heima-leadnews-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-feign-api/target/heima-leadnews-feign-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/target/heima-leadnews-feign-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/target/heima-leadnews-app-gateway.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/target/heima-leadnews-app-gateway.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/heima-leadnews-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/heima-leadnews-model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/heima-leadnews-article.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/heima-leadnews-article.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/target/heima-leadnews-user-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/target/heima-leadnews-user-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/WemediaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/WemediaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmNewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/service/impl/WmNewsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/heima-leadnews-wemedia.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/heima-leadnews-wemedia.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/freemarker-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/freemarker-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/target/minio-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/target/minio-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/tess4j-demo/target/tess4j-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/tess4j-demo/target/tess4j-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/heima-leadnews-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/heima-leadnews-utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +169,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.52873564" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="com.itangcent.idea.plugin.configurable.EasyApiOtherConfigurable" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -318,16 +335,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ProtostuffUtil" />
       <item itemvalue="JUnit.TaskServiceImplTest.addTask" />
       <item itemvalue="JUnit.RedisTest.testPiple1" />
       <item itemvalue="JUnit.RedisTest.testPiple2" />
       <item itemvalue="Spring Boot.WemediaGatewayAplication" />
       <item itemvalue="Spring Boot.AppGatewayApplication" />
       <item itemvalue="Spring Boot.ScheduleApplication-51702" />
-      <item itemvalue="Spring Boot.ScheduleApplication-51701" />
       <item itemvalue="Spring Boot.ArticleApplication" />
       <item itemvalue="Spring Boot.WemediaApplication" />
-      <item itemvalue="Application.ProtostuffUtil" />
+      <item itemvalue="Spring Boot.ScheduleApplication-51701" />
     </list>
     <recent_temporary>
       <list>
@@ -437,7 +454,9 @@
       <workItem from="1699433629790" duration="1150000" />
       <workItem from="1699491736164" duration="2170000" />
       <workItem from="1699578953288" duration="5759000" />
-      <workItem from="1699835004654" duration="6098000" />
+      <workItem from="1699835004654" duration="9999000" />
+      <workItem from="1699922721937" duration="194000" />
+      <workItem from="1699922954008" duration="7501000" />
     </task>
     <servers />
   </component>
@@ -541,22 +560,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1698832440502" />
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1699844833281">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1699847077078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699844833281" />
-    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1699844833280">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1699847077077" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1699847077077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699844833280" />
-    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1699844833280">
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1699847077077" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1699847077077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699844833280" />
-    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1699844833280">
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1699847077077" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1699847077077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699844833280" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1699847077077" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1699844833281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -597,10 +616,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="167" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1699230905912" />
-    <state x="501" y="157" width="1303" height="883" key="SettingsEditor" timestamp="1699433663443">
+    <state x="501" y="157" width="1303" height="883" key="SettingsEditor" timestamp="1699944748237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="501" y="157" width="1303" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1699433663443" />
+    <state x="501" y="157" width="1303" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1699944748237" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1698910558580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -629,10 +648,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1697703661976" />
-    <state x="359" y="208" key="new project wizard" timestamp="1698976209862">
+    <state x="359" y="208" key="new project wizard" timestamp="1699944314480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="359" y="208" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1698976209862" />
+    <state x="359" y="208" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1699944314480" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1698801769735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
